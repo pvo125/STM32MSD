@@ -1,0 +1,299 @@
+Dependencies for Project 'STM32USBDevice', Target 'STM32USBDevice': (DO NOT MODIFY !)
+F (..\CMSIS\DeviceSupport\ST\STM32F10x\startup\arm\startup_stm32f10x_hd.s)(0x5A40ABCB)(--cpu Cortex-M3 -g --apcs=interwork -I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\ST\STM32F10x--list .\output\startup_stm32f10x_hd.lst --xref -o .\output\startup_stm32f10x_hd.o --depend .\output\startup_stm32f10x_hd.d)
+F (..\CMSIS\DeviceSupport\ST\STM32F10x\system_stm32f10x.c)(0x5A5DC422)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\STM32F10x_StdPeriph_Driver\src -I..\STM32F10x_StdPeriph_Driver\inc -I..\USER\main -I..\USER\SDCARD -I..\USER\USB -I..\USER\USB\BOT -I..\USER\USB\inc -I..\CMSIS\DeviceSupport\ST\STM32F10x -I..\CMSIS\CoreSupport-I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\ST\STM32F10x-o .\output\system_stm32f10x.o --omf_browse .\output\system_stm32f10x.crf --depend .\output\system_stm32f10x.d)
+I (..\CMSIS\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x58A28247)
+I (..\CMSIS\CoreSupport\core_cm3.h)(0x58A28247)
+I (D:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7D364)
+I (..\CMSIS\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x58A28247)
+I (..\CMSIS\DeviceSupport\ST\STM32F10x\stm32f10x_conf.h)(0x58A28247)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x58A28248)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x58A28248)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x58A28248)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x58A28248)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x58A28248)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x58A28248)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x58A28248)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x58A28248)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x58A28248)
+F (..\CMSIS\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x58A28247)()
+F (..\STM32F10x_StdPeriph_Driver\src\stm32f10x_dma.c)(0x58A28248)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\STM32F10x_StdPeriph_Driver\src -I..\STM32F10x_StdPeriph_Driver\inc -I..\USER\main -I..\USER\SDCARD -I..\USER\USB -I..\USER\USB\BOT -I..\USER\USB\inc -I..\CMSIS\DeviceSupport\ST\STM32F10x -I..\CMSIS\CoreSupport-I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\ST\STM32F10x-o .\output\stm32f10x_dma.o --omf_browse .\output\stm32f10x_dma.crf --depend .\output\stm32f10x_dma.d)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x58A28248)
+I (..\CMSIS\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x58A28247)
+I (..\CMSIS\CoreSupport\core_cm3.h)(0x58A28247)
+I (D:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7D364)
+I (..\CMSIS\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x58A28247)
+I (..\CMSIS\DeviceSupport\ST\STM32F10x\stm32f10x_conf.h)(0x58A28247)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x58A28248)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x58A28248)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x58A28248)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x58A28248)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x58A28248)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x58A28248)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x58A28248)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x58A28248)
+F (..\STM32F10x_StdPeriph_Driver\src\stm32f10x_exti.c)(0x58A28248)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\STM32F10x_StdPeriph_Driver\src -I..\STM32F10x_StdPeriph_Driver\inc -I..\USER\main -I..\USER\SDCARD -I..\USER\USB -I..\USER\USB\BOT -I..\USER\USB\inc -I..\CMSIS\DeviceSupport\ST\STM32F10x -I..\CMSIS\CoreSupport-I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\ST\STM32F10x-o .\output\stm32f10x_exti.o --omf_browse .\output\stm32f10x_exti.crf --depend .\output\stm32f10x_exti.d)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x58A28248)
+I (..\CMSIS\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x58A28247)
+I (..\CMSIS\CoreSupport\core_cm3.h)(0x58A28247)
+I (D:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7D364)
+I (..\CMSIS\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x58A28247)
+I (..\CMSIS\DeviceSupport\ST\STM32F10x\stm32f10x_conf.h)(0x58A28247)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x58A28248)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x58A28248)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x58A28248)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x58A28248)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x58A28248)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x58A28248)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x58A28248)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x58A28248)
+F (..\STM32F10x_StdPeriph_Driver\src\stm32f10x_fsmc.c)(0x58A28248)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\STM32F10x_StdPeriph_Driver\src -I..\STM32F10x_StdPeriph_Driver\inc -I..\USER\main -I..\USER\SDCARD -I..\USER\USB -I..\USER\USB\BOT -I..\USER\USB\inc -I..\CMSIS\DeviceSupport\ST\STM32F10x -I..\CMSIS\CoreSupport-I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\ST\STM32F10x-o .\output\stm32f10x_fsmc.o --omf_browse .\output\stm32f10x_fsmc.crf --depend .\output\stm32f10x_fsmc.d)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h)(0x58A28248)
+I (..\CMSIS\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x58A28247)
+I (..\CMSIS\CoreSupport\core_cm3.h)(0x58A28247)
+I (D:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7D364)
+I (..\CMSIS\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x58A28247)
+I (..\CMSIS\DeviceSupport\ST\STM32F10x\stm32f10x_conf.h)(0x58A28247)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x58A28248)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x58A28248)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x58A28248)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x58A28248)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x58A28248)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x58A28248)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x58A28248)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x58A28248)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x58A28248)
+F (..\STM32F10x_StdPeriph_Driver\src\stm32f10x_gpio.c)(0x58A28248)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\STM32F10x_StdPeriph_Driver\src -I..\STM32F10x_StdPeriph_Driver\inc -I..\USER\main -I..\USER\SDCARD -I..\USER\USB -I..\USER\USB\BOT -I..\USER\USB\inc -I..\CMSIS\DeviceSupport\ST\STM32F10x -I..\CMSIS\CoreSupport-I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\ST\STM32F10x-o .\output\stm32f10x_gpio.o --omf_browse .\output\stm32f10x_gpio.crf --depend .\output\stm32f10x_gpio.d)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x58A28248)
+I (..\CMSIS\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x58A28247)
+I (..\CMSIS\CoreSupport\core_cm3.h)(0x58A28247)
+I (D:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7D364)
+I (..\CMSIS\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x58A28247)
+I (..\CMSIS\DeviceSupport\ST\STM32F10x\stm32f10x_conf.h)(0x58A28247)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x58A28248)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x58A28248)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x58A28248)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x58A28248)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x58A28248)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x58A28248)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x58A28248)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x58A28248)
+F (..\STM32F10x_StdPeriph_Driver\src\stm32f10x_pwr.c)(0x58A28248)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\STM32F10x_StdPeriph_Driver\src -I..\STM32F10x_StdPeriph_Driver\inc -I..\USER\main -I..\USER\SDCARD -I..\USER\USB -I..\USER\USB\BOT -I..\USER\USB\inc -I..\CMSIS\DeviceSupport\ST\STM32F10x -I..\CMSIS\CoreSupport-I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\ST\STM32F10x-o .\output\stm32f10x_pwr.o --omf_browse .\output\stm32f10x_pwr.crf --depend .\output\stm32f10x_pwr.d)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x58A28248)
+I (..\CMSIS\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x58A28247)
+I (..\CMSIS\CoreSupport\core_cm3.h)(0x58A28247)
+I (D:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7D364)
+I (..\CMSIS\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x58A28247)
+I (..\CMSIS\DeviceSupport\ST\STM32F10x\stm32f10x_conf.h)(0x58A28247)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x58A28248)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x58A28248)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x58A28248)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x58A28248)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x58A28248)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x58A28248)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x58A28248)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x58A28248)
+F (..\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c)(0x58A28248)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\STM32F10x_StdPeriph_Driver\src -I..\STM32F10x_StdPeriph_Driver\inc -I..\USER\main -I..\USER\SDCARD -I..\USER\USB -I..\USER\USB\BOT -I..\USER\USB\inc -I..\CMSIS\DeviceSupport\ST\STM32F10x -I..\CMSIS\CoreSupport-I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\ST\STM32F10x-o .\output\stm32f10x_rcc.o --omf_browse .\output\stm32f10x_rcc.crf --depend .\output\stm32f10x_rcc.d)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x58A28248)
+I (..\CMSIS\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x58A28247)
+I (..\CMSIS\CoreSupport\core_cm3.h)(0x58A28247)
+I (D:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7D364)
+I (..\CMSIS\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x58A28247)
+I (..\CMSIS\DeviceSupport\ST\STM32F10x\stm32f10x_conf.h)(0x58A28247)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x58A28248)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x58A28248)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x58A28248)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x58A28248)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x58A28248)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x58A28248)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x58A28248)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x58A28248)
+F (..\STM32F10x_StdPeriph_Driver\src\stm32f10x_rtc.c)(0x58A28248)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\STM32F10x_StdPeriph_Driver\src -I..\STM32F10x_StdPeriph_Driver\inc -I..\USER\main -I..\USER\SDCARD -I..\USER\USB -I..\USER\USB\BOT -I..\USER\USB\inc -I..\CMSIS\DeviceSupport\ST\STM32F10x -I..\CMSIS\CoreSupport-I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\ST\STM32F10x-o .\output\stm32f10x_rtc.o --omf_browse .\output\stm32f10x_rtc.crf --depend .\output\stm32f10x_rtc.d)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x58A28248)
+I (..\CMSIS\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x58A28247)
+I (..\CMSIS\CoreSupport\core_cm3.h)(0x58A28247)
+I (D:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7D364)
+I (..\CMSIS\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x58A28247)
+I (..\CMSIS\DeviceSupport\ST\STM32F10x\stm32f10x_conf.h)(0x58A28247)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x58A28248)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x58A28248)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x58A28248)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x58A28248)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x58A28248)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x58A28248)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x58A28248)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x58A28248)
+F (..\STM32F10x_StdPeriph_Driver\src\stm32f10x_sdio.c)(0x58A28248)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\STM32F10x_StdPeriph_Driver\src -I..\STM32F10x_StdPeriph_Driver\inc -I..\USER\main -I..\USER\SDCARD -I..\USER\USB -I..\USER\USB\BOT -I..\USER\USB\inc -I..\CMSIS\DeviceSupport\ST\STM32F10x -I..\CMSIS\CoreSupport-I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\ST\STM32F10x-o .\output\stm32f10x_sdio.o --omf_browse .\output\stm32f10x_sdio.crf --depend .\output\stm32f10x_sdio.d)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x58A28248)
+I (..\CMSIS\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x58A28247)
+I (..\CMSIS\CoreSupport\core_cm3.h)(0x58A28247)
+I (D:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7D364)
+I (..\CMSIS\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x58A28247)
+I (..\CMSIS\DeviceSupport\ST\STM32F10x\stm32f10x_conf.h)(0x58A28247)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x58A28248)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x58A28248)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x58A28248)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x58A28248)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x58A28248)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x58A28248)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x58A28248)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x58A28248)
+F (..\USER\main\main.c)(0x5A5DC50A)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\STM32F10x_StdPeriph_Driver\src -I..\STM32F10x_StdPeriph_Driver\inc -I..\USER\main -I..\USER\SDCARD -I..\USER\USB -I..\USER\USB\BOT -I..\USER\USB\inc -I..\CMSIS\DeviceSupport\ST\STM32F10x -I..\CMSIS\CoreSupport-I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\ST\STM32F10x-o .\output\main.o --omf_browse .\output\main.crf --depend .\output\main.d)
+I (..\CMSIS\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x58A28247)
+I (..\CMSIS\CoreSupport\core_cm3.h)(0x58A28247)
+I (D:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7D364)
+I (..\CMSIS\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x58A28247)
+I (..\CMSIS\DeviceSupport\ST\STM32F10x\stm32f10x_conf.h)(0x58A28247)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x58A28248)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x58A28248)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x58A28248)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x58A28248)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x58A28248)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x58A28248)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x58A28248)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x58A28248)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x58A28248)
+I (..\USER\USB\inc\usb_regs.h)(0x58A28248)
+I (..\USER\USB\inc\usb.h)(0x5A5C548F)
+I (..\USER\SDCARD\sdcard.h)(0x58CF375D)
+I (..\USER\SDCARD\my_sdcard.h)(0x5A3A0637)
+F (..\USER\main\stm32f10x_it.c)(0x5A5DBAB8)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\STM32F10x_StdPeriph_Driver\src -I..\STM32F10x_StdPeriph_Driver\inc -I..\USER\main -I..\USER\SDCARD -I..\USER\USB -I..\USER\USB\BOT -I..\USER\USB\inc -I..\CMSIS\DeviceSupport\ST\STM32F10x -I..\CMSIS\CoreSupport-I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\ST\STM32F10x-o .\output\stm32f10x_it.o --omf_browse .\output\stm32f10x_it.crf --depend .\output\stm32f10x_it.d)
+I (..\CMSIS\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x58A28247)
+I (..\CMSIS\CoreSupport\core_cm3.h)(0x58A28247)
+I (D:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7D364)
+I (..\CMSIS\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x58A28247)
+I (..\CMSIS\DeviceSupport\ST\STM32F10x\stm32f10x_conf.h)(0x58A28247)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x58A28248)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x58A28248)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x58A28248)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x58A28248)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x58A28248)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x58A28248)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x58A28248)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x58A28248)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x58A28248)
+I (..\USER\USB\inc\usb_regs.h)(0x58A28248)
+I (..\USER\USB\inc\usb.h)(0x5A5C548F)
+I (..\USER\SDCARD\sdcard.h)(0x58CF375D)
+F (..\USER\USB\usb.c)(0x5A5C5490)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\STM32F10x_StdPeriph_Driver\src -I..\STM32F10x_StdPeriph_Driver\inc -I..\USER\main -I..\USER\SDCARD -I..\USER\USB -I..\USER\USB\BOT -I..\USER\USB\inc -I..\CMSIS\DeviceSupport\ST\STM32F10x -I..\CMSIS\CoreSupport-I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\ST\STM32F10x-o .\output\usb.o --omf_browse .\output\usb.crf --depend .\output\usb.d)
+I (..\CMSIS\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x58A28247)
+I (..\CMSIS\CoreSupport\core_cm3.h)(0x58A28247)
+I (D:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7D364)
+I (..\CMSIS\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x58A28247)
+I (..\CMSIS\DeviceSupport\ST\STM32F10x\stm32f10x_conf.h)(0x58A28247)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x58A28248)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x58A28248)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x58A28248)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x58A28248)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x58A28248)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x58A28248)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x58A28248)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x58A28248)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x58A28248)
+I (..\USER\USB\inc\usb_regs.h)(0x58A28248)
+I (..\USER\USB\inc\usb_desc.h)(0x58A28248)
+I (..\USER\USB\inc\usb.h)(0x5A5C548F)
+I (..\USER\USB\inc\bot.h)(0x5A435FEF)
+F (..\USER\USB\usb_desc.c)(0x5A38813F)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\STM32F10x_StdPeriph_Driver\src -I..\STM32F10x_StdPeriph_Driver\inc -I..\USER\main -I..\USER\SDCARD -I..\USER\USB -I..\USER\USB\BOT -I..\USER\USB\inc -I..\CMSIS\DeviceSupport\ST\STM32F10x -I..\CMSIS\CoreSupport-I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\ST\STM32F10x-o .\output\usb_desc.o --omf_browse .\output\usb_desc.crf --depend .\output\usb_desc.d)
+I (..\CMSIS\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x58A28247)
+I (..\CMSIS\CoreSupport\core_cm3.h)(0x58A28247)
+I (D:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7D364)
+I (..\CMSIS\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x58A28247)
+I (..\CMSIS\DeviceSupport\ST\STM32F10x\stm32f10x_conf.h)(0x58A28247)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x58A28248)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x58A28248)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x58A28248)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x58A28248)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x58A28248)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x58A28248)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x58A28248)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x58A28248)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x58A28248)
+I (..\USER\USB\inc\usb_desc.h)(0x58A28248)
+F (..\USER\USB\usb_regs.c)(0x58A28248)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\STM32F10x_StdPeriph_Driver\src -I..\STM32F10x_StdPeriph_Driver\inc -I..\USER\main -I..\USER\SDCARD -I..\USER\USB -I..\USER\USB\BOT -I..\USER\USB\inc -I..\CMSIS\DeviceSupport\ST\STM32F10x -I..\CMSIS\CoreSupport-I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\ST\STM32F10x-o .\output\usb_regs.o --omf_browse .\output\usb_regs.crf --depend .\output\usb_regs.d)
+I (..\USER\USB\inc\usb_regs.h)(0x58A28248)
+I (..\CMSIS\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x58A28247)
+I (..\CMSIS\CoreSupport\core_cm3.h)(0x58A28247)
+I (D:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7D364)
+I (..\CMSIS\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x58A28247)
+I (..\CMSIS\DeviceSupport\ST\STM32F10x\stm32f10x_conf.h)(0x58A28247)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x58A28248)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x58A28248)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x58A28248)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x58A28248)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x58A28248)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x58A28248)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x58A28248)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x58A28248)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x58A28248)
+F (..\USER\USB\BOT\bot.c)(0x5A44A858)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\STM32F10x_StdPeriph_Driver\src -I..\STM32F10x_StdPeriph_Driver\inc -I..\USER\main -I..\USER\SDCARD -I..\USER\USB -I..\USER\USB\BOT -I..\USER\USB\inc -I..\CMSIS\DeviceSupport\ST\STM32F10x -I..\CMSIS\CoreSupport-I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\ST\STM32F10x-o .\output\bot.o --omf_browse .\output\bot.crf --depend .\output\bot.d)
+I (..\CMSIS\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x58A28247)
+I (..\CMSIS\CoreSupport\core_cm3.h)(0x58A28247)
+I (D:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7D364)
+I (..\CMSIS\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x58A28247)
+I (..\CMSIS\DeviceSupport\ST\STM32F10x\stm32f10x_conf.h)(0x58A28247)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x58A28248)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x58A28248)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x58A28248)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x58A28248)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x58A28248)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x58A28248)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x58A28248)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x58A28248)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x58A28248)
+I (..\USER\USB\inc\usb_regs.h)(0x58A28248)
+I (..\USER\USB\inc\usb_desc.h)(0x58A28248)
+I (..\USER\USB\inc\usb.h)(0x5A5C548F)
+I (..\USER\USB\inc\bot.h)(0x5A435FEF)
+I (..\USER\SDCARD\sdcard.h)(0x58CF375D)
+I (..\USER\SDCARD\my_sdcard.h)(0x5A3A0637)
+F (..\USER\USB\BOT\scsi.c)(0x5A3366DC)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\STM32F10x_StdPeriph_Driver\src -I..\STM32F10x_StdPeriph_Driver\inc -I..\USER\main -I..\USER\SDCARD -I..\USER\USB -I..\USER\USB\BOT -I..\USER\USB\inc -I..\CMSIS\DeviceSupport\ST\STM32F10x -I..\CMSIS\CoreSupport-I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\ST\STM32F10x-o .\output\scsi.o --omf_browse .\output\scsi.crf --depend .\output\scsi.d)
+I (..\CMSIS\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x58A28247)
+I (..\CMSIS\CoreSupport\core_cm3.h)(0x58A28247)
+I (D:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7D364)
+I (..\CMSIS\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x58A28247)
+I (..\CMSIS\DeviceSupport\ST\STM32F10x\stm32f10x_conf.h)(0x58A28247)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x58A28248)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x58A28248)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x58A28248)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x58A28248)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x58A28248)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x58A28248)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x58A28248)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x58A28248)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x58A28248)
+I (..\USER\USB\inc\bot.h)(0x5A435FEF)
+F (..\USER\SDCARD\sdcard.c)(0x5A5DC13D)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\STM32F10x_StdPeriph_Driver\src -I..\STM32F10x_StdPeriph_Driver\inc -I..\USER\main -I..\USER\SDCARD -I..\USER\USB -I..\USER\USB\BOT -I..\USER\USB\inc -I..\CMSIS\DeviceSupport\ST\STM32F10x -I..\CMSIS\CoreSupport-I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\ST\STM32F10x-o .\output\sdcard.o --omf_browse .\output\sdcard.crf --depend .\output\sdcard.d)
+I (..\USER\SDCARD\sdcard.h)(0x58CF375D)
+I (..\CMSIS\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x58A28247)
+I (..\CMSIS\CoreSupport\core_cm3.h)(0x58A28247)
+I (D:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7D364)
+I (..\CMSIS\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x58A28247)
+I (..\CMSIS\DeviceSupport\ST\STM32F10x\stm32f10x_conf.h)(0x58A28247)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x58A28248)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x58A28248)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x58A28248)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x58A28248)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x58A28248)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x58A28248)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x58A28248)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x58A28248)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x58A28248)
+I (D:\Keil\ARM\ARMCC\include\stdbool.h)(0x51C7D364)
+F (..\USER\SDCARD\my_sdcard.c)(0x5A40B9E8)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\STM32F10x_StdPeriph_Driver\src -I..\STM32F10x_StdPeriph_Driver\inc -I..\USER\main -I..\USER\SDCARD -I..\USER\USB -I..\USER\USB\BOT -I..\USER\USB\inc -I..\CMSIS\DeviceSupport\ST\STM32F10x -I..\CMSIS\CoreSupport-I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\ST\STM32F10x-o .\output\my_sdcard.o --omf_browse .\output\my_sdcard.crf --depend .\output\my_sdcard.d)
+I (..\CMSIS\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x58A28247)
+I (..\CMSIS\CoreSupport\core_cm3.h)(0x58A28247)
+I (D:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7D364)
+I (..\CMSIS\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x58A28247)
+I (..\CMSIS\DeviceSupport\ST\STM32F10x\stm32f10x_conf.h)(0x58A28247)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x58A28248)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x58A28248)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x58A28248)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x58A28248)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x58A28248)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x58A28248)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x58A28248)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x58A28248)
+I (..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x58A28248)
+I (..\USER\SDCARD\sdcard.h)(0x58CF375D)
+I (..\USER\SDCARD\my_sdcard.h)(0x5A3A0637)
+I (..\USER\USB\inc\usb.h)(0x5A5C548F)

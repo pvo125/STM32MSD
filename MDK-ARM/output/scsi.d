@@ -1,0 +1,17 @@
+.\output\scsi.o: ..\USER\USB\BOT\scsi.c
+.\output\scsi.o: ..\CMSIS\DeviceSupport\ST\STM32F10x\stm32f10x.h
+.\output\scsi.o: ..\CMSIS\CoreSupport\core_cm3.h
+.\output\scsi.o: D:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\output\scsi.o: ..\CMSIS\DeviceSupport\ST\STM32F10x\system_stm32f10x.h
+.\output\scsi.o: ..\CMSIS\DeviceSupport\ST\STM32F10x\stm32f10x_conf.h
+.\output\scsi.o: ..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h
+.\output\scsi.o: ..\CMSIS\DeviceSupport\ST\STM32F10x\stm32f10x.h
+.\output\scsi.o: ..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h
+.\output\scsi.o: ..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h
+.\output\scsi.o: ..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h
+.\output\scsi.o: ..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h
+.\output\scsi.o: ..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h
+.\output\scsi.o: ..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h
+.\output\scsi.o: ..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h
+.\output\scsi.o: ..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h
+.\output\scsi.o: ..\USER\USB\inc\bot.h
